@@ -155,7 +155,7 @@
                 },
                 {
                     "word": "array",
-                    "hint": "A data structure in programming"
+                    "hint": "O(n) search data structure"
                 },
                 {
                     "word": "genes",
@@ -163,11 +163,43 @@
                 },
                 {
                     "word": "logic",
-                    "hint": "Rules of valid reasoning"
+                    "hint": "You should have some"
                 },
                 {
                     "word": "graph",
                     "hint": "A structure of nodes and edges in math"
+                },
+                {
+                    "word": "field",
+                    "hint": "A mathematical structure used in abstract algebra"
+                },
+                {
+                    "word": "group",
+                    "hint": "A set with an operation satisfying closure, associativity, identity, and inverses"
+                },
+                {
+                    "word": "coset",
+                    "hint": "A subset of a group related to a subgroup"
+                },
+                {
+                    "word": "poset",
+                    "hint": "A partially ordered set in mathematics"
+                },
+                {
+                    "word": "phase",
+                    "hint": "A distinct state of matter or oscillation"
+                },
+                {
+                    "word": "torus",
+                    "hint": "A doughnut-shaped surface in geometry"
+                },
+                {
+                    "word": "radix",
+                    "hint": "The base of a numeral system"
+                },
+                {
+                    "word": "muons",
+                    "hint": "Elementary particles similar to electrons but heavier"
                 }
             ]
         },
@@ -193,6 +225,26 @@
                 {
                     "word": "boole",
                     "hint": "Father of symbolic logic"
+                },
+                {
+                    "word": "pauli",
+                    "hint": "Famous for exclusion principle in quantum physics"
+                },
+                {
+                    "word": "gauss",
+                    "hint": "A mathematician known for Gaussian distribution and more"
+                },
+                {
+                    "word": "erdos",
+                    "hint": "Famous for collaboration in mathematics"
+                },
+                {
+                    "word": "higgs",
+                    "hint": "Physicist known for the Higgs boson"
+                },
+                {
+                    "word": "fermi",
+                    "hint": "Known for contributions to nuclear physics"
                 }
             ]
         },
@@ -201,15 +253,15 @@
             "words": [
                 {
                     "word": "apple",
-                    "hint": "A popular fruit"
+                    "hint": "Keeps the doctor away"
                 },
                 {
                     "word": "train",
-                    "hint": "A mode of transportation"
+                    "hint": "Chaiyya chaiyya"
                 },
                 {
                     "word": "plant",
-                    "hint": "A living organism that photosynthesizes"
+                    "hint": "green"
                 },
                 {
                     "word": "chair",
@@ -217,7 +269,19 @@
                 },
                 {
                     "word": "smile",
-                    "hint": "An expression of happiness"
+                    "hint": "you should do it more often"
+                },
+                {
+                    "word": "clock",
+                    "hint": "tick tick"
+                },
+                {
+                    "word": "light",
+                    "hint": "A mode that developrs should refrain from using"
+                },
+                {
+                    "word": "water",
+                    "hint": "We don't have it often"
                 }
             ]
         }

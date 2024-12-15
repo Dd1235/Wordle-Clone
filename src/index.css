@@ -6,11 +6,27 @@ body {
 }
 
 h1 {
-  font-size: 1.2em;
+  font-size: 1.4em;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
   margin: 0 0 30px 0;
   color: #333;
+}
+
+/* Remove underline for links inside h1 */
+h1 a {
+  text-decoration: none;
+  /* Remove underline */
+  color: inherit;
+  /* Use the same color as h1 */
+}
+
+/* Optional: Add hover effect if desired */
+h1 a:hover {
+  text-decoration: none;
+  /* Ensure no underline on hover */
+  color: #555;
+  /* Optional hover color change */
 }
 
 /* rows */
@@ -130,6 +146,23 @@ h1 {
   letter-spacing: 1px;
 }
 
+.modal .close-button {
+  margin: 20px 0 0;
+  /* Only add margin above if necessary */
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.modal .close-button:hover {
+  background-color: #45a049;
+}
+
 /* keyframe animations */
 @keyframes flip {
   0% {
@@ -172,4 +205,42 @@ h1 {
     transform: scale(1);
     border-color: #333;
   }
+}
+
+.hint-button {
+  background-color: #ffa500;
+  /* Orange background */
+  color: white;
+  /* White text */
+  border: none;
+  padding: 10px 20px;
+  /* Button padding for size */
+  font-size: 16px;
+  /* Adjust font size */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  border-radius: 5px;
+  /* Rounded corners */
+  transition: all 0.3s ease;
+  /* Smooth transitions */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* Add some space above or below */
+
+}
+
+/* Hover effect for the button */
+.hint-button:hover {
+  background-color: #ff8c00;
+  /* Slightly darker orange */
+  transform: scale(1.05);
+  /* Slight zoom-in effect */
+}
+
+/* Focus effect for accessibility */
+.hint-button:focus {
+  outline: none;
+  /* Remove default outline */
+  box-shadow: 0 0 5px 2px #ff8c00;
+  /* Add a glowing focus ring */
 }

@@ -26,6 +26,7 @@ export default function Wordle({ solution, hint }) {
     return () => window.removeEventListener('keyup', handleKeyup)
   }, [handleKeyup, isCorrect, turn])
 
+  
   return (
     <div>
       <Grid guesses={guesses} currentGuess={currentGuess} turn={turn} />

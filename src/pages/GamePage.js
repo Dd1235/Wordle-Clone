@@ -24,6 +24,7 @@ const GamePage = () => {
 
   return (
     <div>
+      <h2>Mode: {mode}</h2>
       {solution ? <Wordle solution={solution} hint={hint} /> : <p>Loading...</p>}
     </div>
   );

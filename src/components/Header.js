@@ -5,12 +5,11 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="header">
-      <h1>Wordle</h1>
-      <nav>
-        <Link to="/" className="home-link">
-          Home
+      <h1>
+        <Link to="/" className="title-link">
+          Wordle Clone
         </Link>
-      </nav>
+      </h1>
     </header>
   );
 };
