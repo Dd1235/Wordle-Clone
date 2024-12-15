@@ -1,0 +1,144 @@
+{
+    "solutions": [
+        {
+            "id": 1,
+            "word": "model"
+        },
+        {
+            "id": 2,
+            "word": "token"
+        },
+        {
+            "id": 3,
+            "word": "force"
+        },
+        {
+            "id": 4,
+            "word": "codes"
+        },
+        {
+            "id": 5,
+            "word": "bytes"
+        },
+        {
+            "id": 6,
+            "word": "logic"
+        },
+        {
+            "id": 7,
+            "word": "qubit"
+        },
+        {
+            "id": 8,
+            "word": "scale"
+        },
+        {
+            "id": 9,
+            "word": "pixel"
+        },
+        {
+            "id": 10,
+            "word": "debug"
+        },
+        {
+            "id": 11,
+            "word": "pulse"
+        },
+        {
+            "id": 12,
+            "word": "react"
+        },
+        {
+            "id": 13,
+            "word": "input"
+        },
+        {
+            "id": 14,
+            "word": "sigma"
+        },
+        {
+            "id": 15,
+            "word": "graph"
+        }
+    ],
+    "letters": [
+        {
+            "key": "a"
+        },
+        {
+            "key": "b"
+        },
+        {
+            "key": "c"
+        },
+        {
+            "key": "d"
+        },
+        {
+            "key": "e"
+        },
+        {
+            "key": "f"
+        },
+        {
+            "key": "g"
+        },
+        {
+            "key": "h"
+        },
+        {
+            "key": "i"
+        },
+        {
+            "key": "j"
+        },
+        {
+            "key": "k"
+        },
+        {
+            "key": "l"
+        },
+        {
+            "key": "m"
+        },
+        {
+            "key": "n"
+        },
+        {
+            "key": "o"
+        },
+        {
+            "key": "p"
+        },
+        {
+            "key": "q"
+        },
+        {
+            "key": "r"
+        },
+        {
+            "key": "s"
+        },
+        {
+            "key": "t"
+        },
+        {
+            "key": "u"
+        },
+        {
+            "key": "v"
+        },
+        {
+            "key": "w"
+        },
+        {
+            "key": "x"
+        },
+        {
+            "key": "y"
+        },
+        {
+            "key": "z"
+        }
+    ]
+}
