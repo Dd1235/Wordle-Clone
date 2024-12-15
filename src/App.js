@@ -1,30 +1,51 @@
-import { useEffect, useState } from "react";
-import Wordle from "./components/Wordle";
+// import { useEffect, useState } from "react";
+// import Wordle from "./components/Wordle";
 
-function App(){
+// function App(){
 
-  const [solution, setSolution] = useState(null);
+//   const [solution, setSolution] = useState(null);
 
-  useEffect(() => {
-    fetch('http://localhost:3001/solutions')
-      .then(res => res.json())
-      .then(data => {
-        // grab a random solution from the array of 15 solutions
-        const randomSolution = data[Math.floor(Math.random()*data.length)]
-        setSolution(randomSolution.word)
-      })
-  }, [setSolution]);
+//   useEffect(() => {
+//     fetch('http://localhost:3001/solutions')
+//       .then(res => res.json())
+//       .then(data => {
+//         // grab a random solution from the array of 15 solutions
+//         const randomSolution = data[Math.floor(Math.random()*data.length)]
+//         setSolution(randomSolution.word)
+//       })
+//   }, [setSolution]);
+//   return (
+//     <div className="App">
+//     <h1>Wordle</h1>
+    
+//     {solution && <Wordle solution={solution}/>}
+//     </div> 
+//   );
+    
+// }
+
+// export default App;
+
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import LandingPage from "./pages/LandingPage";
+import GamePage from "./pages/GamePage";
+
+function App() {
   return (
-    <div className="App">
-    <h1>Wordle</h1>
-    
-    {solution && <Wordle solution={solution}/>}
-    </div> 
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/game/:mode" element={<GamePage />} />
+      </Routes>
+    </Router>
   );
-    
 }
 
 export default App;
+
 
 /* 
 
